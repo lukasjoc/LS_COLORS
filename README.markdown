@@ -37,8 +37,12 @@ Here's a screenshot _(font and minor color shades, of course, depend on terminal
 
 # Dependencies
 
+Linux:
 You need GNU `dircolors` and a compatible directory listing tool, such as GNU
 `ls`. Both are available in GNU coreutils.
+
+MacOs:
+  - gdircolors using brew coreutils
 
 # Installation
 
