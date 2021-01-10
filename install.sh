@@ -4,7 +4,7 @@
 lscolors_data_dir="${XDG_DATA_HOME:-$HOME/.local/share}"
 
 if gdircolors -b LS_COLORS > lscolors.sh && gdircolors -c LS_COLORS > lscolors.csh ; then
-  if mv lscolors.sh lscolors.csh "$lscolors_data_dir"; then
+  if cp lscolors.sh lscolors.csh "$lscolors_data_dir"; then
     cat <<EOF
 To enable the colors, add the following line to your shell's start-up script:
 
